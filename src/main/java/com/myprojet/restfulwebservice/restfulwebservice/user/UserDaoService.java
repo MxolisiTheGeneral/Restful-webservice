@@ -16,7 +16,7 @@ public class UserDaoService {
 
           users.add( new User(1,"MXOLISI", new Date()));
           users.add( new User(2,"Mcebo", new Date()));
-          users.add( new User(2,"Treasure", new Date()));
+          users.add( new User(3,"Treasure", new Date()));
      }
 
      // find all users
@@ -43,4 +43,6 @@ public class UserDaoService {
            return  user;
 
     }
+
+
 }
